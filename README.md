@@ -28,7 +28,8 @@ Place the following files in the root of your project:
 3. **Configure NFS exports**:
 Edit /etc/exports file and add:
 ```bash 
-   /srv/nfs/k3s-data *(rw,sync,no_subtree_check,no_root_squash)```
+/srv/nfs/k3s-data *(rw,sync,no_subtree_check,no_root_squash)
+```
 <!--- Shares the folder with all clients, gives read-write access, 
 disables subtree check, and keeps root permissions (required for containers).-->
 
