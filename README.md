@@ -6,9 +6,9 @@ This project demonstrates how to deploy an Nginx web server with 3 replicas on a
 
 Place the following files in the root of your project:
 
-- `nfs-pv.yaml`
-- `nfs-pvc.yaml`
-- `nginx-deployment.yaml`
+- `my_pv.yaml`
+- `my_pvc.yaml`
+- `deploymentPvPvc.yaml`
 
 ## 📂 NFS Setup (on the K3s Server)
 
